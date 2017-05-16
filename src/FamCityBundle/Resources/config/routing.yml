@@ -1,0 +1,15 @@
+fam_city_homepage:
+    path:     /
+    defaults: { _controller: FamCityBundle:Default:index }
+layoutCheck:
+    path:     /layout
+    defaults: { _controller: FamCityBundle:Default:home }
+loginPage:
+    path:     /loginA
+    defaults: { _controller: FamCityBundle:Default:loginPage }
+profilePage:
+    path:     /profile
+    defaults: { _controller: FamCityBundle:Default:ProfilePage }
+EventPage:
+    path:     /events
+    defaults: { _controller: FamCityBundle:Default:EventPage }
